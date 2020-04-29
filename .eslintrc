@@ -17,6 +17,8 @@
     "indent":"off",
     "linebreak-style":"off",
     "react/prefer-stateless-function": ["off", { "ignorePureComponents": true }],
-    "react/jsx-filename-extension": "off"
-  }
+    "react/jsx-filename-extension": "off",
+    "react/no-unused-state":"warn"
+  },
+  "plugins": ["@typescript-eslint/eslint-plugin"]
 }

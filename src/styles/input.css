@@ -1,0 +1,109 @@
+.input {
+  box-sizing: border-box;
+  height: 40px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ebebeb;
+}
+
+.input[disabled] {
+  cursor: not-allowed;
+}
+
+.input[name="checkbox"],
+.input[name="radio"] {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.input.error {
+  border-color: #d43728;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.labelsWrapper {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputRequired {
+  color: #777;
+}
+
+.inputRequired,
+.inputLabel {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.inputError {
+  margin-top: 5px;
+  color: #d43728;
+}
+.inputText {
+  width: 100%;
+  resize: none;
+  overflow: auto;
+  font-size: 1.2em;
+  border: 1px solid #669885;
+}
+.post-welcome {
+  color: #669885;
+}
+.editor-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+}
+.text-container {
+  width: 95%;
+  display: flex;
+  justify-content: center;
+}
+.text-doc {
+  width: 10%;
+}
+.text-composer {
+  width: 90%;
+}
+.image-container {
+  width: 95%;
+}
+.editor-footer {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+.user-profile {
+  display: flex;
+  color: #669885;
+}
+.user-name {
+  margin-left: 1em;
+  font-weight: 700;
+}
+.editor-control {
+}
+.desc {
+  text-align: right;
+  color: black;
+  margin-right: 0.5em;
+}
+.instruction {
+  text-align: right;
+  color: #669885;
+  margin-right: 0.5em;
+}
+.post-welcome {
+  margin-bottom: 2em;
+  font-weight: 700;
+}
